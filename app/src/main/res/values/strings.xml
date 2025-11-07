@@ -7,4 +7,19 @@
     <string name="status">Status Perkawinan</string>
     <string name="list">List Daftar Peserta</string>
     <string name="home">Form Isian</string>
+    <string name="alamat">ALAMAT</string>
+
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="nama_developer">Muhammad Akmal Taufansyah</string>
+    <string name="nim_developer">20230140236</string>
+
+    <string name="list_daftar_peserta">List Daftar Peserta</string>
+    <string name="beranda">Beranda</string>
+    <string name="form_pendaftaran">Formulir Pendaftaran</string>
+
+    <string name="data_nama">Muhammad Akmal Taufansyah</string>
+    <string name="data_jenis_kelamin">Perempuan</string>
+    <string name="data_status">Lajang</string>
+    <string name="data_alamat">Sleman</string>
+
 </resources>
