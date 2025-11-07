@@ -11,6 +11,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.questnavigasitugas_236.view.ListTampilanData
 import com.example.questnavigasitugas_236.view.Beranda
+import com.example.questnavigasitugas_236.view.FormulirData
 
 enum class Navigasi {
     Home,
@@ -31,13 +32,18 @@ fun DataApp (
             modifier = Modifier.padding(paddingValues = isiRuang)) {
             composable(route = Navigasi.Formulir.name){
                 Beranda (
-                    // PilihanJK = JenisK.map {id -> konteks.resource.getString(id)},
                     OnSubmitBtnClick = {
                         navController.navigate(route = Navigasi.Formulir.name)
                     }
                 )
             }
-
+            composable(route = Navigasi.Formulir.name){
+                FormulirData (
+                    OnSubmitBtnClick = {
+                        navController.navigate(route = Navigasi.Formulir.name)
+                    }
+                )
+            }
             composable(route = Navigasi.List.name){
                 ListTampilanData (
                     OnBerandaBtnClick = {cancelAndBackToHome(navController)},
