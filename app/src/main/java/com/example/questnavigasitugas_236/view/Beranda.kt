@@ -75,7 +75,7 @@ fun Beranda(
         Text(
             text = stringResource(id = R.string.nim_developer),
             fontSize = 16.sp,
-            color = Color.Gray, // Warna lebih pudar seperti di gambar
+            color = Color.Red, // Warna lebih pudar seperti di gambar
             textAlign = TextAlign.Center
         )
 
