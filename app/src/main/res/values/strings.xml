@@ -19,7 +19,7 @@
 
     <string name="data_nama">Doni</string>
     <string name="data_jenis_kelamin">Laki-laki</string>
-    <string name="data_status">Lajang</string>
+    <string name="data_status">Kawin</string>
     <string name="data_alamat">Tangetang Selatan</string>
 
 </resources>
