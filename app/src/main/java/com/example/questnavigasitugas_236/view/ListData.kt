@@ -60,7 +60,7 @@ fun ListTampilanData(
                 title = {
                     Text(
                         text = stringResource(id = R.string.list_daftar_peserta),
-                        color = Color.Black, // Warna teks di TopBar
+                        color = Color.Blue, // Warna teks di TopBar
                         modifier = Modifier.fillMaxWidth(),
                         textAlign = TextAlign.Center,
                         fontWeight = FontWeight.Bold,
