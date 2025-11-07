@@ -40,7 +40,7 @@ fun DataApp (
             composable(route = Navigasi.Formulir.name){
                 FormulirData (
                     OnSubmitBtnClick = {
-                        navController.navigate(route = Navigasi.Formulir.name)
+                        navController.navigate(route = Navigasi.List.name)
                     }
                 )
             }
