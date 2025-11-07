@@ -101,7 +101,7 @@ fun ListTampilanData(
                             text = item.second, // Menggunakan .second dari Pair
                             fontWeight = FontWeight.Normal, // Font biasa, bukan Cursive
                             fontSize = 18.sp,
-                            color = Color.Black
+                            color = Color.Green
                         )
                     }
                 }
