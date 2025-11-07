@@ -92,7 +92,7 @@ fun Beranda(
                 .padding(bottom = 32.dp), // Jarak dari bawah
             colors = ButtonDefaults.buttonColors(
                 containerColor = purpleButtonColor, // Warna background tombol
-                contentColor = Color.White // Warna teks "Submit"
+                contentColor = Color.Black // Warna teks "Submit"
             )
         ) {
             Text(
