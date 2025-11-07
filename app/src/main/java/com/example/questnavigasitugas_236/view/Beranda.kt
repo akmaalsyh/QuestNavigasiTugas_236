@@ -65,7 +65,7 @@ fun Beranda(
         Text(
             text = stringResource(id = R.string.nama_developer),
             fontSize = 18.sp,
-            color = Color.Black,
+            color = Color.Green,
             textAlign = TextAlign.Center
         )
 
