@@ -44,7 +44,7 @@ fun Beranda(
             text = stringResource(id = R.string.selamat_datang),
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
-            color = Color.Black,
+            color = Color.Blue,
             modifier = Modifier.padding(top = 64.dp)
         )
 
